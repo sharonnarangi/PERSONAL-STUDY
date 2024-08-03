@@ -1,0 +1,37 @@
+ CSS is a styling language, not a programming language. It is used to control the layout and appearance
+of web pages, but it does not have the ability to perform actions or execute code like a programming
+language. CSS is typically used in conjunction with HTML and JavaScript to create dynamic web pages.
+CSS is used for presentation  and of the web pages.
+It builds on my creativity.
+
+CSS Syntax
+ selector{
+    Property 1: value;
+    property 2: value; 
+
+ }
+ We have many different types of selectors.
+
+ CSS Selectors
+ CSS has many types of selectors but the main ones are: Element, class and ID selectors.
+
+ Element Selectors are as follows.
+ h1{
+    color: blue;
+ }
+This turns all H1 blue.
+Any html element can be used as an element selector. I.E header, div, footer, span, strong etc.
+The most common and most useful selector is the class selector.
+The class selector, lets me select any html element based on their classes. i.e 
+<h1 class="big header">
+title
+</h1>
+A class is just an attribute that all html elements can have.
+And it is used in CSS to distinguish elements for specific styling.
+In order to select element by class, we need to use a period for that.
+ .class-name{
+     property: value;
+ }
+ 
+
+
