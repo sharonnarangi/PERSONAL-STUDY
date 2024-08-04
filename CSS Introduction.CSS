@@ -33,5 +33,47 @@ In order to select element by class, we need to use a period for that.
      property: value;
  }
  
+ ID Selectors.
+ ID selectors are used to select a single element with a unique id.
+ The id selector is used to select an element with a unique id.
+ The id selector is denoted by a hash symbol (#) in CSS.
+ #id-name{
+   property: value;
+   }
+
+   CSS SELECTOR COMBINATIONS
+   CSS selectors can be combined to select elements based on multiple conditions. There are several types of selector combinations
+   1. Descendant Combinator
+   2. Child Combinator
+   3. Adjacent Sibling Combinator
+   4. General Sibling Combinator
+   * This is used for default styling of the entire web page.
+
+   HOW TO LOAD CSS
+   There are several ways to load CSS in a web page. The most common method is to link
+   <link rel="stylesheet" type="text/css" href="style.css">
+   rel is an attribute meaning relationship.
+   This is the most common method of loading CSS in a web page. It is called external CSS
+   
+   An inline style is the other way, it is written directly inside the html structure.
+   It does not need a selector. It is a terrible idea.
+   This is because html is meant for the content only. Adding CSS here will give bad presentation.
+   And your page may load very slowly.
+    
+   The other one is using the style html element found in the html structure. They are not re usable across multiple pages though.
+   Colors in CSS
+   Colors in CSS are specified using the color property. The color property can be specified in several ways
+   1. Color Name
+   2. Hex Code
+   3. RGB Code
+   4. HSL Code
+   
+
+
+
+
+
+
+
 
 
