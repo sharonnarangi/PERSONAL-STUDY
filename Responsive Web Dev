@@ -1,0 +1,7 @@
+{
+    display: none;
+}
+@media() {}
+If I say screens then this will apply to screens such as tablets, screens and mobile phones with screens.
+If I say print it will target print media 
+If I don't add any specification, I will target all media. All media will be styled.
